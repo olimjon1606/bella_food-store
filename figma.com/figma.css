@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+:root {
+    --olovrang: #fa4a0c;
+    --text: #252b42;
+    --textwhite: #f6f6f6;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    
+}
+html{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x:hidden !important ;
+    font-family:'Montserrat' sans-serif ;
+}
+/* .navbar-brand img{
+    padding: 10px 0px  10px 70px; 
+
+} */
+
+
+.clr {
+    clear: both;
+}
+.col-md-6, .col-md-4, .col-md-8 {
+    float: left;
+}
+.navbar  {
+    width: 100%;
+    
+
+    background: #fff!important;
+}
+.navbar-nav {
+    margin: 0 0 0 30vw !important;
+}
+.nav-link.active {
+    color: #fa4a0c !important;
+}
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(37, 43, 66, 1) !important;
+    margin: 0 50px !important;
+}
+
+/* showcase */
+
+
+header {
+    background: url(./Rectangle\ 48.jpg);
+    height: 750px;
+    color: var(--textwhite);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+header > .container > h3 {
+    padding: 70px 0 20px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .1px;
+    font-weight: 700;
+}
+header > .container > h1 {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 20px;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: .2px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+header > .container > button {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .1px;
+    font-weight: 700;
+    padding: 16px 58px;
+    margin: 70px 15px 0;
+    border: 1px solid var(--olovrang);
+    border-radius: 30px;
+    outline: none;
+    background: var(--olovrang);
+    color: #fff;
+    box-shadow: 0 10px 30px hsla(5, 65%, 44%, 0.2);
+} 
+.appstore-home {
+    background: transparent!important;
+    border: 1px solid #fff!important;
+}
+.images-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 450px;
+
+}
+.images-2 img{
+    position: absolute;
+    margin-top: -250px;
+    height: 760px;
+    width: 600px;
+}
+.card-title{
+    clear: both;
+}
+hr {
+    width: 60%;
+    margin: auto;
+    border: 2px solid #E4E4E4;
+    opacity: 1;
+    clear: both;
+    background-color:#E4E4E4 ;
+}
+
+.middle-h2{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    padding: 50px;
+
+}
+
+
+/* 3-card */
+
+
+.card{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    border: 0px solid;
+    height:600px;
+
+}
+.card .container{
+    overflow: hidden;
+    width: 80%;
+    margin: -50px auto;
+
+}
+.card img{
+    position: absolute;
+    height: 725px;
+    width: 552px !important;
+    font-size: 700px;
+    background: transparent;
+    margin-left: -250px;
+    margin-top: -200px;
+
+}
+.card .card-body{
+    text-align: left;
+    width: 500px;
+    margin-left: 100px;
+    justify-content: center;
+
+}
+.card-title{   
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color:#fa4a0c;
+    letter-spacing: .2px
+}
+
+.card-text{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #252b42;
+
+}
+.card-body h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+
+}
+
+
+.showcase_2{
+    background-image: url(./Rectangle\ 47.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    left: 0px;
+    top: -1px;
+    border-radius: 0px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.showcase_2 .container{
+    position: absolute;
+    text-align: center;
+    height: 326px;
+    width: 100%;
+    top: 140px;
+    border-radius: 0px;
+    color: #fff;
+    ;
+
+}
+.showcase_2 .container h2{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+
+}
+.showcase_2 .container h4{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.showcase_2 .container .btn{
+    height: 60px;
+    width: 180px;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    margin: 30px 5px 0 5px;
+    text-align: center;
+    transition: .3s;
+
+}
+    
+.showcase_2 .container a{
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+}
+
+/* footer */
+
+footer .container{
+    width: 70%;
+    position: relative;
+    margin: auto;
+    
+   
+}
+
+footer .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+footer .grid .img{
+    margin: 30px auto 40px;
+}
+footer .grid .social{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+footer .grid .p{
+    margin-top: 60px;
+    font-family: cursive;
+}
+footer .grid .p a {
+    text-decoration: none;
+    color: #fa4a0c;
+}
+
+
+
+
+.navbar-toggler {
+    border: #FFFFFF .5px solid !important;
+
+}
+.navbar-light .navbar-toggler{
+    color: #fa4a0c !important;
+}
+
+/* hover */
+
+.btn-1:hover{
+    background-color: transparent !important;
+    border: .5px solid #f6f6f6;
+}.btn-2:hover{
+    background-color: #fa4a0c !important;
+    border: none !important;
+    outline: none !important;
+}
+
+
+/* media */
+@media (max-width:1399px){
+    .navbar-nav {
+        margin: 0 0 0 15vw !important;
+    }
+
+}
+@media (max-width:1099px){
+    .navbar-nav {
+        margin: 0 0 0 10vw !important;
+    }
+}
+
+
+@media (max-width:1050px){
+    .card .container{
+        width: 100%;
+        margin: auto;
+    }
+    .card .container:nth-child(){
+        margin-left: -40px;
+    }
+    
+    .card .card-body{
+        margin-left: -10px;
+    }
+    .card-2 img{
+        margin-right: 100px !important;
+    }
+
+    
+}
+@media (max-width:768px){
+    .card{
+        height:900px;
+    
+    }
+    header{
+        height: 500px;
+    }
+    header > .container > h1 {
+        padding: 0 0 13px;
+        font-size: 38px;
+        line-height: 60px;
+        letter-spacing: .1px;
+    }
+    header > .container > button {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: .1px;
+        font-weight: 500;
+        padding: 13px 45px;
+        margin: 50px 10px 0;
+    }
+    .images-2 img{
+        position: absolute;
+        margin-top: -100px !important;
+        height: 450px;
+        width: 500px;
+    }
+    .images-2{
+        height: 500px;
+    
+    }
+    
+   
+    .images-2 img{
+        position: absolute;
+        margin-top: -150px;
+        height: 660px;
+        width: 500px;
+    }
+    .card .card-body{
+        margin-top: 400px;
+        padding: 30px;
+        margin-left: 100px ;
+        margin-bottom: 0;
+    }
+    .card img{
+        margin-top:-170px !important;
+    }
+    .card-2 .card-body{
+        margin-top: 400px;
+        padding: 30px;
+    }
+    .card-2 img{
+        margin-top:-900px !important;
+    }
+
+    footer .container{
+        width: 100% !important;
+        margin: auto;
+        
+       
+    }
+    footer .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer .grid .social{
+        width: 100%;
+        margin: -10px auto 0px auto;
+        text-align: center;
+    }
+    footer .grid .p{
+        margin-top: 20px;
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    footer .grid .p a {
+        text-decoration: none;
+        color: hsl(16, 96%, 51%);
+        font-size: 18px;
+        text-align: center !important;
+    }
+}
+
+@media (max-width:570px){
+    header{
+        height: 500px;
+    }
+    header > .container > h1 {
+        padding: 0 0 13px;
+        font-size: 38px;
+        line-height: 60px;
+        letter-spacing: .1px;
+    }
+    header > .container > button {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        font-weight: 500;
+        padding: 10px 35px;
+        margin: 20px 10px 0;
+    }
+    header > .container > h3 {
+        padding: 50px 0 15px;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        font-weight: 500;
+    }
+    header > .container > h4 {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        font-weight: 500;
+    }
+
+    .images-2{
+        height: 450px;
+    
+    }
+    .images-2 img{
+        position: absolute;
+        margin-top: -70px !important;
+        height: 560px;
+        width: 400px;
+    }
+
+
+
+    .card .card-body{
+        padding: 10px !important;
+        padding-bottom: 0px !important;
+        margin-left: 0px ;
+        margin-bottom: 0;
+        width: 90%;
+        margin: 400px auto 0px auto;
+    }
+
+    .card{
+        height:700px;
+
+    
+    }
+    .card-title{   
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        letter-spacing: .1px;
+        text-align: center !important;
+
+    }
+    
+    .card-text{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0.2px;
+        color: #252b42;
+        
+    
+    }
+    .card-body h4{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+    
+    }
+    
+    
+    .card-2 {
+        position: absolute;
+        margin-top:-20px !important;
+
+    }
+    .card img{
+        height: 625px;
+        width: 500px !important;
+        font-size: 700px;
+        margin-top: -100px !important;
+        margin-left: -200px;
+    
+    }
+
+    footer .container{
+        width: 100% !important;
+        margin: auto;
+        
+       
+    }
+
+    .showcase_2{
+        height:350px;
+        width: 100%;
+    }
+    .showcase_2 .container{
+        height: 300px;
+        width: 100%;
+        top: 100px;
+    }
+    .showcase_2 .container h2{
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0.2px;
+    }
+    .showcase_2 .container h4{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    
+    
+    .showcase_2 .container .btn{
+        height: 45px;
+        width: 150px;
+        border-radius: 15px;
+        font-size: 18px;
+        margin: 23px 5px 0 5px;
+    
+    }
+        
+    .showcase_2 .container a{
+        line-height: 30px;
+    }
+}
+
+@media (max-width:450px){
+    header{
+        height: 450px;
+    }
+    header > .container > h1 {
+        padding: 0 0 13px;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: .1px;
+    }
+    
+    header > .container > h3 {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        font-weight: 500;
+    }
+    header > .container > h4 {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        font-weight: 500;
+    }
+    header > .container > button {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 8px 30px;
+        margin: 70px 10px 0;
+
+
+    }
+    .showcase_2{
+        height:350px;
+        width: 100%;
+    }
+    .showcase_2 .container{
+        height: 300px;
+        width: 100%;
+        top: 50px !important;
+    }
+    .showcase_2 .container h2{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+    }
+    .showcase_2 .container h4{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    
+    
+    .showcase_2 .container .btn{
+        height: 45px;
+        width: 130px;
+        border-radius: 15px;
+        font-size: 18px;
+        margin: 23px 5px 0 5px;
+    
+    }
+        
+    .showcase_2 .container a{
+        line-height: 30px;
+    }
+}
+
+
+
+@media (max-width:400px){
+    header{
+        height: 450px;
+    }
+    header > .container > h1 {
+        font-size: 26px;
+    }
+   
+    header > .container > button {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 8px 30px;
+        margin: 10px 10px 0;
+
+
+    }
+    .images-2 img{
+        height: 500px;
+        width: 350px;
+        margin-left: -40px !important;
+    }
+
+
+
+    .card .card-body{
+        margin: 310px auto 0px auto;
+    }
+
+    .card{
+        height:600px;
+
+    
+    }
+    .card-title{   
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        letter-spacing: .1px;
+        text-align: center !important;
+
+    }
+    
+    .card-text{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0.2px;
+        color: #252b42;
+        
+    
+    }
+    .card-body h4{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+    
+    }
+    
+    
+    .card-2 {
+        position: absolute;
+        margin-top:-20px !important;
+
+    }
+    .card img{
+        height: 500px;
+        width: 500px !important;
+        font-size: 700px;
+        margin-top: -80px !important;
+        margin-left: -150px;
+    
+    }
+    .middle-h2{
+        font-size: 30px;
+    
+    }
+}
